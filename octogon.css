@@ -1,0 +1,19 @@
+:root {
+	--size: 10px
+}
+
+.topOct {
+	border: var(--size) solid transparent;
+	border-bottom: var(--size) solid orange;
+}
+
+.bottomOct {
+	border: var(--size) solid transparent;
+	border-top: var(--size) solid orange;
+}
+
+.octContent {
+	border-left: var(--size) solid orange;
+	border-right: var(--size) solid orange;
+	height: 100px;
+}

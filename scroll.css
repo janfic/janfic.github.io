@@ -1,0 +1,6 @@
+.scroll {
+	overflow: auto;
+	height: auto;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: none;
+}
