@@ -8,6 +8,65 @@ body {
     position: relative;
     background-color: #2f8db3;
     color: #2f8db3;
+    
+}
+
+a {
+    
+}
+
+.dot {
+    height: 200px;
+    width: 200px;
+    background-color: #e5f4f9;
+    border-radius: 50%;
+    position: absolute;
+    visibility: hidden;
+    z-index: -2;
+}
+
+@keyframes dot {
+    0% {
+        left: 50%;
+        top: 50px;
+        width: 0px;
+        height: 0px;
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    100% {
+        left: 0;
+        top: -50%;
+        width: 100%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+
+@keyframes smalldot {
+    0% {
+        width: 100px;
+        height: 100px;
+        top: -50px;
+        left: -50px;
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    100% {
+        top: -350px;
+        left: -350px;
+        width: 700px;
+        height: 700px;
+        opacity: 0;
+    }
 }
 
 #hire {
@@ -28,6 +87,7 @@ body {
 #headshot {
     position: absolute;
     margin-left: calc(50% - 102px);
+    top: -1px;
 }
 
 #name {
@@ -37,7 +97,7 @@ body {
     text-align: center;
     font: 1.75em "Lucida Console";
 }
-/*
+
 #pulse {
     position: absolute;
     width: 100%;
@@ -52,8 +112,19 @@ body {
     animation-timing-function: linear;
     animation-delay: 5s;
     z-index: -10;
-}*/
+}
 
+.panel {
+    width: 27%;
+    height: 55%;
+    top: 40%;
+    background-color: #e5f4f9;
+    opacity: 0.90;
+    position: absolute;
+    border: 4px white solid;
+    font-family: monospace;
+    text-align: center;
+}
 
 
 @keyframes pulseHorrizontal{

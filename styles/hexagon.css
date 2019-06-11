@@ -51,3 +51,31 @@
 .light:before {
     border-left-color:  #8dc6d9;
 }
+
+.largehexagon {
+  position: relative;
+  height: 250px; 
+  width: 144.34px;
+  background-color: #e5f4f9;
+  margin: 72.17px 0;
+}
+
+.largehexagon:before,
+.largehexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-top: 125px solid transparent;
+  border-bottom: 125px solid transparent;
+}
+
+.largehexagon:before {
+  left: 100%;
+  border-left: 72.17px solid #e5f4f9;
+}
+
+.largehexagon:after {
+  right: 100%;
+  width: 0;
+  border-right: 72.17px solid #e5f4f9;
+}
