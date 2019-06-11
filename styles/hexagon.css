@@ -1,0 +1,53 @@
+.hexagon {
+    position: relative;
+    height: 180px; 
+    width: 104px;
+    background-color: #e5f4f9;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-top: 90px solid transparent;
+    border-bottom: 90px solid transparent;
+}
+
+.hexagon:before {
+    left: 100%;
+    width: 0;
+    border-left: 49px solid #e5f4f9;
+}
+
+.hexagon:after {
+    right: 100%;
+    width: 0;
+    border-right: 49px solid #e5f4f9;
+}
+
+.background {
+    position: absolute;
+    background-color:   #5ba5c2;
+    z-index: -1;
+}
+
+.background:before {
+    border-left-color:  #5ba5c2;
+}
+
+.background:after {
+    border-right-color:  #5ba5c2;
+}
+
+.light {
+    background-color:   #8dc6d9;
+}
+
+.light:after {
+    border-right-color:  #8dc6d9;
+}
+
+.light:before {
+    border-left-color:  #8dc6d9;
+}

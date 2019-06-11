@@ -1,48 +1,25 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-    "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
-<head>
-    <title>Jan Fic's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="octogon.css">
-     <link rel="stylesheet" href="scroll.css">
-     <link rel="stylesheet" href="projects.css">
-    <script src="index.js" type="text/javascript"></script>
-</head>
-<body>
-    
-    <div class="flex-container">
-        <div id="sidebar">
-            <h1 class="title">Jan Fic</h1>
-            <img id="portrait" src="janfic.jpg" width="60%"alt="Picture of Jan Fic"/>
-            <h2>About</h2>
-            <p>
-                Welcome to my portfolio. Here you can find completed projects and works in progress and read about each one. I play and make games, art, and sometimes music.
-                I am a 1st year student at New College of Florida currently pursuing a Computer Science Degree.
-            </p>
-            <p>
-                You can read more about
-                my skills and experience down below. Thank you for visiting my portfolio!
-            </p>
-            <a href="" onclick="showSkills(true)"><h2>Skills</h2></a>
-            <div class="skills">
-                <a href="#"><div class="tag Java" onclick="pressTag('Java')">Java</div></a>
-                <a href="#"><div class="tag HTML5" onclick="pressTag('HTML5')">HTML5</div></a>
-                <a href="#"><div class="tag Groovy" onclick="pressTag('Groovy')">Groovy</div></a>
-                <a href="#"><div class="tag Construct-2" onclick="pressTag('Construct-2')">Construct-2</div></a>
-                <a href="#"><div class="tag C" onclick="pressTag('C')">C</div></a>
-                <a href="#"><div class="tag LibGDX" onclick="pressTag('LibGDX')">LibGDX</div></a>
-                <a href="#"><div class="tag Game" onclick="pressTag('Game')">Game</div></a></a>
-                <a href="#"><div class="tag Game-Art" onclick="pressTag('Game-Art')">Game-Art</div></a>
-                <a href="#"><div class="tag WIP" onclick="pressTag('WIP')">WIP</div></a>
-            </div>
-        </div>
-        <div id="divider"></div>
-        <div id="projects">
-            <h1 class="title" style="text-align: center; margin:0px;">Portfolio</h1>
-            <div id="Crime Time" class="project"><script>loadProject('Crime Time');</script></div>
-            <div id="USER DSL" class="project">><script>loadProject('USER DSL');</script></div>
-        </div>
-    </div>
-</body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jan Fic</title>
+        <script type="text/javascript" src="scripts/backgroundScript.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href ="styles/hexagon.css" rel="stylesheet"/>
+        <link href ="styles/stylesheet.css" rel="stylesheet"/>
+    </head>
+
+    <body style="width: 100%;">
+        <div id="background"></div>
+        <div id="pulse"></div>
+        <div id="pulse2"></div>
+        <div id="pulse3"></div>
+        <img id="headshot" src="assets/headshot.png" alt="Headshot Image of Jan Fic" width="204" height="180"/>
+        <div class="hexagon" style="position: absolute; margin-left: calc(50% - 208px); margin-top: 90px;"></div>
+        <div class="hexagon" style="position: absolute; margin-left: calc(50% + 104px); margin-top: 90px;"></div>
+        <div id="about">About</div>
+        <div id="hire">Hire</div>
+        <div id="name">Jan Fic</div>
+        <script>makeBackground();</script>
+    </body>
 </html>
