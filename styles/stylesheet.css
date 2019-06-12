@@ -8,7 +8,6 @@ body {
     position: relative;
     background-color: #2f8db3;
     color: #2f8db3;
-    
 }
 
 a {
@@ -115,15 +114,17 @@ a {
 }
 
 .panel {
-    width: 27%;
-    height: 55%;
+    width: 25.5%;
+    height: 50%;
+    padding: 10px;
     top: 40%;
-    background-color: #e5f4f9;
-    opacity: 0.90;
+    background-color: white ;
+    opacity: 0.85;
     position: absolute;
-    border: 4px white solid;
+    border: 4px #e5f4f9 solid;
     font-family: monospace;
     text-align: center;
+    font-size: 1.2em;
 }
 
 
