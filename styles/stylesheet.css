@@ -11,7 +11,11 @@ body {
 }
 
 a {
-    
+    color: #2f8db3;
+}
+
+a:visited {
+    color: #2f8db3;
 }
 
 .dot {
@@ -114,9 +118,9 @@ a {
 }
 
 .panel {
-    width: 25.5%;
+    width: 27%;
     height: 50%;
-    padding: 10px;
+
     top: 40%;
     background-color: white ;
     opacity: 0.85;
@@ -127,6 +131,30 @@ a {
     font-size: 1.2em;
 }
 
+.panel div {
+    padding: 10px;
+    padding-top: 0px;
+    text-align: left;
+}
+
+.preview {
+    text-align: center;
+    overflow: hidden;
+    width: 325px;
+    height: 200px;
+    border: 4px solid #2f8db3;
+    padding: 0px;
+}
+
+.preview img {
+    margin-top: 0px;
+    transition: margin-top 2s;
+    opacity: 2;
+}
+
+.preview img:hover {
+    margin-top: -225px;
+}
 
 @keyframes pulseHorrizontal{
     from {
