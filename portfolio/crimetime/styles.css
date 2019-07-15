@@ -1,0 +1,112 @@
+#header {
+    overflow: hidden;
+    height: 25%;
+    position: relative;
+}
+
+#header img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+
+}
+
+html {
+    height: 100%;
+
+}
+
+p, h2, h1, h4, h3, a {
+    font-family: monospace;
+    text-decoration: none;
+}
+
+.bar {
+    text-align: center;
+    list-style: none;
+    height: 5%;
+    background-color: grey;
+    font-size: 1.3em;
+    top: 0;
+    position: sticky;
+    background-image: url('../../assets/bricks.png');
+    z-index: 100
+}
+
+.bar a  {
+    position: relative;
+    top: 22%;
+    
+}
+
+.button {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    background: grey;
+    text-decoration: none;
+    text-align: center;
+    border: black solid 3px;
+    border-top-color: lightgrey;
+    border-left-color: lightgrey;
+}
+
+#play {
+    background-image: url('../../assets/crimetime1.png');
+    background-size: cover;
+    width: 100%;
+    height: 70%;
+}
+
+#code {
+    background-image: url('../../assets/crimetime2.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#art {
+    background-image: url('../../assets/crimetime3.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.panel {
+    top: 10%;
+    left: 5%;
+    position: relative;
+    width: 50%; 
+    height: 65%;
+    background-image: url('../../assets/bricks.png');
+}
+
+.panel .inside {
+    top: 5%;
+    position: relative;
+    margin-left: 5%;
+    background-color: lightgray;
+    width: 86%;
+    height: 81%;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+}
+
+#playPanel {
+    width: 50%;
+    text-align: left;
+    padding: 8px;
+}
+
+#aboutPanel {
+    width: 50%;
+    text-align: left;
+    padding: 8px;
+}
