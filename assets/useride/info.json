@@ -1,0 +1,62 @@
+{
+    "name": "USER IDE",
+    "commands": [
+        {
+            "name": "PLAY",
+            "url": ""
+        },
+        {
+            "name": "CODE",
+            "url": "http://github.com/janfic/useride"
+        },
+        {
+            "name": "DOCUMENTATION",
+            "url": "."
+        },
+        {
+            "name": "DEV LOGS",
+            "url": "."
+        },
+        {
+            "name": "GAME DESIGN DOCUMENT",
+            "url": "."
+        }
+    ],
+    "tags": [
+        "programming",
+        "education",
+        "game development",
+        "integrated development environment",
+        "entity-component-systems",
+        "modding",
+        "java",
+        "groovy",
+        "operating system"
+    ],
+    "sections": [
+        {
+            "title": "About",
+            "body": [
+                "In this project I create a virtual environment that allows users to explore game development with Entity-Component Systems (ECS), a game design pattern commonly used in large scale, data heavy, games. My motiation for this project is to create an environment for beginner game programmers to learn and play at the same time."
+            ]
+        },
+        {
+            "title": "Features",
+            "body": [
+                "- Mock operating system ( USER OS )",
+                "- Example programs and tools to run on USER OS",
+                "- A custom ECS based programming language",
+                "- and more"
+            ]
+        },
+        {
+            "title": "Skills and Tools",
+            "body": [
+                "Skills:",
+                "-  Game Design, Java and Groovy Programming, Java Class Loaders",
+                "Tools:",
+                "-  Badlogic's libGDX Library, Ashley ECS Framework, GitHub, Netbeans IDE"
+            ]
+        }
+    ]
+}
