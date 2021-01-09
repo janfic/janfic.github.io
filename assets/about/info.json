@@ -1,0 +1,61 @@
+{
+    "name": "Jan Fic",
+    "preview_width": "100%",
+    "preview_height": "50%",
+    "tags":[
+        "Software Engineer",
+        "Game Developer",
+        "Jan Fic",
+        "Sarasota, Florida, USA",
+        "He/Him",
+        "For Hire",
+        "Remote Work",
+        "Pixel Artist"
+    ],
+    "commands": [
+        {
+            "name": "RESUME",
+            "url": ""
+        },
+        {
+            "name": "GITHUB",
+            "url": "https://github.com/janfic"
+        },
+        {
+            "name": "TWITTER",
+            "url": "https://twitter.com/gry_jana"
+        },
+        {
+            "name": "ITCH.IO",
+            "url": "https://janfic.itch.io"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Welcome!",
+            "body": [
+                "Welcome Internet Traveler! My name is Jan ( pronounced like \"yawn\" ) Fic, and you have traversed the internet to see my website.",
+                "I make games, software, and pixel art, and this portfolio is a place where you can glimps at my software, game, and pixel art projects. On the left side ( desktop ) or the bottom ( mobile ) of your screen you can scroll or slide to see various of my projects.",
+                "Each project has some tags describing what you might find, and if you do click to explore that project you'll find a dedicated page for the project, which may include code, game design documents, dev logs, and more!",
+                "Feel free to explore this and other pages.",
+                "Safe Internet Travels,",
+                "Jan Fic"
+            ]
+        },
+        {
+            "title": "About Jan Fic",
+            "body": [
+                "Education: Computer Science, New College of Florida, May 2022",
+                "Contact: jan.fic18@ncf.edu",
+                "Pronouns: He/Him",
+                "Location: Sarasota FL USA",
+                "Social Media: GitHub, LinkedIn, Twitter, Website, Itch.io",
+                "Quick Skills (See Resume for Details): Software Engineering, Java, Python, Amazon Web Services, Google Firebase, Java Game Frameworks, Angular, Pixel Art"
+            ]
+        },
+        {
+            "title": "Twitter",
+            "body" : "gry_jana"
+        }
+    ]
+}
