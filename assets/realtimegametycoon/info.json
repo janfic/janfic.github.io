@@ -1,0 +1,41 @@
+{
+    "name": "Real-Time Game Tycoon",
+    "preview_width":"100%",
+    "preview_height": "100%",
+    "commands": [
+        {
+            "name": "PLAY",
+            "url" : "https://janfic.itch.io/real-time-game-tycoon"
+        },
+        {
+            "name": "CODE",
+            "url" : "https://github.com/janfic/RealTimeGameTycoon"
+        }
+    ],
+    "sections": [
+        {
+            "title" : "About",
+            "body" : [
+                "Learn about real-time game network models such as LAN, Peer-to-Peer, and Dedicated Game Servers in this educational simulation game.",
+                "Players learn about these network models by maintaining a simulated game company that uses these models to keep players happy and buying their game.",
+                "With a How To Play section and Credits section they can become more educated about the topic with unique network visualizations and external references resources."
+            ]
+        },
+        {
+            "title" : "Purpose",
+            "body" : [
+                "This game is a final project for a Computer Networks class, taken in Spring 2019 at New College of Florida, with Professor Lepinski. For this project we were assigned to choose a topic that we did not greatly cover in class and to present the topic in whatever medium we would like. We could do this in groups up to 4 people. I chose to do it independently.",
+                "For my project I decided to research more about Real-Time Gaming Over IP. This includes the different structures and models real-time games use to achieve functionality. For the my medium I decided to create an educational simulation game. In this game the player learns about each basic real-time game structure through simulating them on their network. There is also a game aspect to this simulation, for the player can develop and implement these models with cost and watch their profits increase due to the effectiveness of the model."
+            ]
+        }
+    ],
+    "tags" : [
+        "libGDX",
+        "lwjgl",
+        "java",
+        "computer networks",
+        "education",
+        "game development",
+        "custom assets"
+    ]
+}
