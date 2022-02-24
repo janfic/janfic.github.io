@@ -1,0 +1,51 @@
+{
+    "name": "SPACE JUNK",
+    "preview_width": "100%",
+    "preview_height": "50%",
+    "commands": [
+        {
+            "name": "PLAY",
+            "url": "https://janfic.itch.io/spacejunk"
+        },
+        {
+            "name": "CODE",
+            "url": "http://github.com/janfic/spacejunk"
+        },
+        {
+            "name": "POST MORTEM DEV LOG",
+            "url": "https://janfic.itch.io/spacejunk/devlog/297674/game-jam-postmortem"
+        }
+    ],
+    "tags": [
+        "on-button",
+        "education",
+        "game development",
+        "java",
+        "game jam",
+        "quick development",
+        "arcade",
+        "action",
+        "browser based game",
+        "multiple distributions",
+        "html"
+    ],
+    "sections": [
+        {
+            "title": "About",
+            "body": [
+                "A lost floating astronaut in space needs your help!",
+                "With no gravity and a unique single click movement system, maneuver the astronaut to safety while avoiding all the space junk that might cause them harm.",
+                "Play to survive the longest without colliding with the growning amount of space junk"
+            ]
+        },
+        {
+            "title": "Project",
+            "body": [
+                "Created in LibGDX's Game Jam 18 with the theme: \"No Gravity\" ( SEPTEMBER 2021 )",
+                "Developed and Distributed within a week's time in a solo team.",
+                "The Game Jam required a game designed and created within a weeks time based on the theme. In addition a post-mortem was written after submitting the game.",
+                "Check out the Postmortem below!"
+            ]
+        }
+    ]
+}

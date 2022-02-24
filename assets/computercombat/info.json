@@ -1,0 +1,82 @@
+{
+    "name": "Computer Combat",
+    "preview_width": "80%",
+    "preview_height": "50%",
+    "commands": [
+        {
+            "name": "PLAY",
+            "url": "https://janfic.itch.io/computer-combat"
+        },
+        {
+            "name": "CODE",
+            "url": "http://github.com/janfic/computercombat"
+        },
+        {
+            "name": "DEVLOGS",
+            "url": "https://janfic.itch.io/computer-combat/devlog"
+        }
+    ],
+    "tags": [
+        "puzzle",
+        "game development",
+        "java",
+        "match-3",
+        "strategy",
+        "trading card game",
+        "live multiplayer",
+        "game ai"
+    ],
+    "sections": [
+        {
+            "title": "About",
+            "body": [
+                "Battle between other players in real time to test who's computer is ready for combat in this multiplayer match three deck building strategy game",
+                "Match components on the board representing the needed components of a computer from CPU to Network Packets to charge your cards and destroy your opponents computer",
+                "Play by pressing the button below!"
+            ]
+        },
+        {
+            "title": "Features",
+            "body": [
+                "1. Live Multiplayer Battles",
+                "2. Player Profiles",
+                "3. Deck Building and Editing",
+                "4. Game Artificial Intelligence ( Bots )",
+                "5. Card Pack Purchasing and Opening",
+                "6. And More!"
+            ]
+        },
+        {
+            "title": "Inspiration and Related Works",
+            "body" : [
+                "This project was inspired by the game \"Gems of War\" and its gameplay. I orginally wanted to create bots for Gems of War to improve them, however Gems of War does not have well supported API to allow bots. ( Cheating Prevention )",
+                "I am currently writing about the extensibility of online puzzle games for my Honors Thesis at New College of Florida. Looking at other related works such as Candy Crush, Gems of War, and Hearthstone has been proven useful in thinking about how to design a puzzle game with extensibility in mind."
+            ]
+        },
+        {
+            "title": "Development Architecture",
+            "body": [
+                "Client:",
+                "Created with libGDX and Java. Assets are custom made and created with Aseprite.",
+                "",
+                "Server:",
+                "Currently hosted with DigitalOcean Droplets and Docker Images",
+                "",
+                "Database:",
+                "A MySQL Database hosted on Amazon Web Services ( AWS )"
+            ]
+        },
+        {
+            "title" : "Skills Used",
+            "body" :[
+                "Creation of this large puzzle game was done by using these technologies and notable skills:",
+                "Docker",
+                "Designing for Extensibility",
+                "Object Oriented Programming and Design",
+                "Amazon Web Services",
+                "MySQL and SQL",
+                "Java, Groovy, and LibGDX"
+            ]
+        }
+    ]
+}
